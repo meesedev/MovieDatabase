@@ -1,0 +1,35 @@
+﻿#pnl-login {
+    idth: 400px;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.r1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.r1 label {
+    width: 150px;
+}
+
+.r1 input {
+    width: 100%;
+    padding: 5px;
+}
+
+#loginWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+#loginWrapper h1{
+    margin-bottom:10px;
+}

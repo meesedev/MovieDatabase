@@ -1,0 +1,113 @@
+﻿
+#movieDataList {
+    display: flex;
+    flex-direction: column;
+}
+
+#movieDataList li {
+    display: flex;
+    flex-direction: row;
+}
+
+#movieDataList li:nth-child(odd) {
+    background-color: #e5e5e5;
+}
+
+#movieDataList li:nth-child(odd) div {
+    border-right: 1px solid white;
+}
+
+#movieDataList li:nth-child(even) div {
+    border-right: 1px solid #e5e5e5;
+}
+
+#movieDataList div {
+    padding: 10px;
+}
+
+#movieDataList div:nth-child(1) {
+    width: 100px;
+}
+
+#movieDataList div:nth-child(2) {
+    width: 300px;
+}
+
+#movieDataList div:nth-child(3) {
+    width: 100px;
+}
+
+#movieDataList div:nth-child(4) {
+    width: 100px;
+}
+
+#movieDataList div:nth-child(5) {
+    width: 100%;
+}
+
+
+input[type=text] {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+#criteraWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#criteraWrapper label {
+    display: inline-flex;
+    width: 90px;
+}
+
+#chkGenres {
+    width: 200px;
+}
+
+#chkGenres div {
+    width: 100px;
+    display: inline-flex;
+}
+
+#chkGenres input {
+    margin-right: 5px;
+}
+
+#searchWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: -20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*PAGER*/
+.pager {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.pager li {
+    cursor: pointer;
+    text-decoration: underline;
+    list-style-type: none;
+    padding: 2px;
+}
+
+.selectedPage {
+    color: red;
+}
+
+#totalRecords{
+    margin:6px;
+}
